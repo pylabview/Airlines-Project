@@ -27,16 +27,16 @@ export default function AddUser() {
     <div className="container">
       <div className="row">
         <div className="col-md-6 offset-md-3 border rounded p-4 mt-2 shadow">
-          <h2 className="text-center m-4">Register User</h2>
+          <h2 className="text-center m-4">Search for flight!</h2>
           <form onSubmit={(ev) => onSubmit(ev)}>
             <div className="mb-3">
               <label htmlFor="Name" className="form-label">
-                Name
+                Departing Airport
               </label>
               <input
                 type={"text"}
                 className="form-control"
-                placeholder="Enter your Name"
+                placeholder="Enter Airport"
                 name="name"
                 value={name}
                 onChange={(ev) => onInputChange(ev)}
@@ -44,12 +44,12 @@ export default function AddUser() {
             </div>
             <div className="mb-3">
               <label htmlFor="Name" className="form-label">
-                Username
+                Destination Airport
               </label>
               <input
                 type={"text"}
                 className="form-control"
-                placeholder="Enter your Username"
+                placeholder="Enter destination airport"
                 name="username"
                 value={username}
                 onChange={(ev) => onInputChange(ev)}
@@ -57,19 +57,19 @@ export default function AddUser() {
             </div>
             <div className="mb-3">
               <label htmlFor="Name" className="form-label">
-                Email
+                Flight#
               </label>
               <input
                 type={"text"}
                 className="form-control"
-                placeholder="Enter your Email"
+                placeholder="Enter enter flight number"
                 name="email"
                 value={email}
                 onChange={(ev) => onInputChange(ev)}
               />
             </div>
             <button type="submit" className="btn btn-outline-primary">
-              Submit
+              Search & Add
             </button>
             <Link className="btn btn-outline-danger mx-2" to="/">
               Cancel

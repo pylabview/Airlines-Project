@@ -27,10 +27,10 @@ export default function Home() {
         <table className="table border shadow">
           <thead>
             <tr>
-              <th scope="col">S.N</th>
-              <th scope="col">Name</th>
-              <th scope="col">Username</th>
-              <th scope="col">Email</th>
+              <th scope="col">#ID</th>
+              <th scope="col">Departing to</th>
+              <th scope="col">Arriving at</th>
+              <th scope="col">Flight#</th>
               <th scope="col">Action</th>
             </tr>
           </thead>

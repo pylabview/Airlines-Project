@@ -7,7 +7,7 @@ export default function Navbar() {
       <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">
-            Full Stack Application
+            ATR Flight Booking App by WPI
           </Link>
           <button
             className="navbar-toggler"
@@ -22,7 +22,7 @@ export default function Navbar() {
           </button>
 
           <Link className="btn btn-outline-light" to="/adduser">
-            Add User
+            Serch Flight
           </Link>
         </div>
       </nav>
