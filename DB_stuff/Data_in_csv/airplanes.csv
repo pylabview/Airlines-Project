@@ -1,0 +1,23 @@
+id_airplane,plane_model,plane_capacity,carrier
+1,Airbus A220-100,109,DL
+2,Airbus A220-300,130,DL
+3,Airbus A319-100,132,DL
+4,Airbus A320-200,157,DL
+5,Airbus A321-200,191,DL
+6,Airbus A321neo,194,DL
+7,Airbus A330-200,223,DL
+8,Airbus A330-300,282,DL
+9,Airbus A330-900,281,DL
+10,Airbus A350-900,306,DL
+11,Boeing 717-200,110,DL
+12,Boeing 737-800,160,DL
+13,Boeing 737-900ER,180,DL
+14,Boeing 737 MAX 10,182,DL
+15,Boeing 757-200,190,DL
+16,Boeing 757-300,234,DL
+17,Boeing 767-300ER,216,DL
+18,Boeing 767-400ER,238,DL
+19,Boeing 737-700,143,WN
+20,Boeing 737-800,175,WN
+21,Boeing 737 MAX 7,150,WN
+22,Boeing 737 MAX 8,175,WN
