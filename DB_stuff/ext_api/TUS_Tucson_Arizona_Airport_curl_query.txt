@@ -1,1 +1,1 @@
-curl -L -X GET 'https://maps.googleapis.com/maps/api/timezone/json?location=32.115004%2C-110.938053&timestamp=1708220653&key=AIzaSyBRBQt-UTFg1pLUckmaI79_Lt_fNXOMRVM'
+curl -L -X GET 'https://maps.googleapis.com/maps/api/timezone/json?location=32.115004%2C-110.938053&timestamp=1708220653&key=KEY'
