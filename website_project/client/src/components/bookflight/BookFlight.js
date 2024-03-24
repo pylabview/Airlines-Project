@@ -14,7 +14,6 @@ export default function BookFlight() {
   const [airports, setAirports] = useState([]);
   const [departAirport, setDepartAirport] = useState(null);
   const [arriveAirport, setArriveAirport] = useState(null);
-
   const [singleDate, setSingleDate] = useState(new Date());
   const [startDate, setStartDate] = useState(new Date());
   const [endDate, setEndDate] = useState(new Date());
@@ -74,8 +73,8 @@ export default function BookFlight() {
   };
 
   const handleSearch = async () => {
-    if (!departAirport || !arriveAirport) {
-      alert('Please select a departure and an arrival airport.');
+    if (!departAirport || !arriveAirport || !singleDate || !startDate || !endDate) {
+      alert('Please input your search criteria (i.e., departure and an arrival airports, departure and/or return dates.');
       return;
     }
 
