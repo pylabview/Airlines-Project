@@ -1,18 +1,15 @@
 .depart_airport_selector, .arrive_airport_selector {
     background-color: white;
+    border: 2px solid skyblue !important;
     border-radius: 10px !important;
     color: skyblue;
     height: 40px !important;
     font-size: 20px;
-    padding-left: 20px !important;
+    padding-left: 18px !important;
     width: 400px !important;
-}
-
-.react-dropdown-select-dropdown:hover, .react-dropdown-select-dropdown:focus,
-.react-dropdown-select-input:hover, .react-dropdown-select-input:focus {
-    outline: none !important;
-    border: none !important;
-    box-shadow: none !important;
+    &:hover {
+        box-shadow: none !important;
+    }
 }
 
 .react-dropdown-select-dropdown {

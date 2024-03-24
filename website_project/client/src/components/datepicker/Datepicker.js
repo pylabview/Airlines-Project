@@ -8,9 +8,9 @@ import '../datepicker/Datepicker.css';
 registerLocale('en-GB', enGB);
 
 export default function Datepicker({ onDateChange = () => {} }) {
-  const [singleDate, setSingleDate] = useState(new Date());
-  const [startDate, setStartDate] = useState(new Date());
-  const [endDate, setEndDate] = useState(new Date());
+  const [singleDate, setSingleDate] = useState(null);
+  const [startDate, setStartDate] = useState(null);
+  const [endDate, setEndDate] = useState(null);
   const [toggle, setToggle] = useState(false);
   const tripType = toggle ? 'Round-Trip' : 'One-Way';
 
@@ -40,6 +40,7 @@ export default function Datepicker({ onDateChange = () => {} }) {
         {toggle ? (
           <div>
             <DatePicker
+              className='range_datepicker'
               dateFormat={'yyyy-MM-dd'}
               endDate={endDate}
               isClearable
@@ -47,7 +48,7 @@ export default function Datepicker({ onDateChange = () => {} }) {
               minDate={new Date('2022-12-26')}
               maxDate={new Date('2023-01-05')}
               onChange={handleStartDateChange}
-              placeholderText='Departure date...'
+              placeholderText='Select departure and return dates...'
               selected={startDate}
               selectsRange
               startDate={startDate}
@@ -56,13 +57,13 @@ export default function Datepicker({ onDateChange = () => {} }) {
         ) : (
           <div>
             <DatePicker
-              className='singleDate'
+              className='single_datepicker'
               dateFormat={'yyyy-MM-dd'}
               isClearable
               onChange={handleSingleDateChange}
               minDate={new Date('2022-12-26')}
               maxDate={new Date('2023-01-05')}
-              placeholderText='Departure date...'
+              placeholderText='Select departure date...'
               selected={singleDate}
             />{' '}
           </div>
