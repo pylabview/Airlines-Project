@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'the_King__26_Queen_font';
+    src: url('../fonts/the_King__26_Queen_font.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+.wpi_slogan {
+    color: skyblue;
+    font-family: 'the_King__26_Queen_font', sans-serif;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    font-size: 3em;
+    position: relative;
+    top:30%;
+    text-shadow: -3px 0 white, 0 1px white, 1px 0 white, 0 -3px white;
+}

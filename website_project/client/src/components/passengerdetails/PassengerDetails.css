@@ -1,0 +1,102 @@
+.passenger_details_button1 {
+    background-color: white !important;
+    border: 2px solid skyblue !important;
+    left: 120px;
+    position: relative;
+    width: 160px;
+}
+
+.passenger_details_title, .passenger, .luggage {
+    color: skyblue !important;
+}
+
+.passenger_plus, .passenger_minus {
+    background-color: transparent !important;
+    border: none !important;
+    color: skyblue !important;
+    position: absolute !important;
+    &:hover {
+        color: darkorange !important;
+    }
+}
+
+.passenger_count {
+    left: 203px;
+    position: absolute;
+    top: -1px; 
+}
+
+.passenger_plus {
+    top: -9px;
+    left: 155px;
+}
+
+.passenger_minus {
+    top: -9px;
+    left: 215px;
+}
+
+.cabin_class_e, .cabin_class_b, .cabin_class_f, .passenger_details_button1, .passenger_details_button2 {
+    align-items: center !important;
+    border-radius: 10px !important;
+    color: skyblue !important;
+    display: flex !important;
+    height: 30px;
+    justify-content: center !important;
+    margin: 10px 0;
+    &:hover {
+        background-color: darkorange !important;
+        color: white !important;
+    }
+}
+
+.cabin_class_e, .cabin_class_b, .cabin_class_f {
+    background-color: transparent !important;
+    border: 2px solid skyblue !important;
+    position: relative;
+    width: 110px;
+}
+
+.selected {
+    background-color: darkorange !important;
+    color: white !important;
+}
+
+.passenger::after, .cabin_class::after {
+    content: "";
+    display: block;
+    height: 1px;
+    background: skyblue;
+    margin: 10px 0;
+}
+
+.luggage_plus, .luggage_minus {
+    background-color: transparent !important;
+    border: none !important;
+    color: skyblue !important;
+    position: absolute !important;
+    &:hover {
+        color: darkorange !important;
+    }
+}
+
+.luggage_plus {
+    top: -10px;
+    left: 155px;
+}
+
+.luggage_minus {
+    top: -34px;
+    left: 215px;
+}
+
+.checked_luggage_count, .carry-on_luggage_count {
+    left: 203px;
+    position: absolute;
+}
+
+.passenger_details_button2 {
+    background-color: white !important;
+    border: 2px solid skyblue !important;
+    width: 300px;
+}

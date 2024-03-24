@@ -1,0 +1,19 @@
+.wpi-atr_navbar_container {
+    max-width: 90% !important;
+}
+
+.wpi-atr_navbar .me-auto {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.wpi-atr_icon,
+.wpi-atr_navbar .me-auto a {
+    text-decoration: none;
+    color: skyblue;
+    &:hover {
+        color: darkorange;
+    }
+}
