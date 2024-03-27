@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.background-image {
+  background-size: cover;
+  height: 100vh;
+  color: 'white';
+}

@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Montery Bird';
+    src: url('../fonts/Monterey\ Bird.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+.wpi_slogan {
+    color: skyblue;
+    font-family: 'Montery Bird', sans-serif;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    font-size: 6.5em;
+    position: relative;
+    top:25%;
+    text-shadow: -3px 0 white, 0 1px white, 1px 0 white, 0 -3px white;
+}
